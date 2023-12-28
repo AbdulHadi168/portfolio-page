@@ -1,0 +1,140 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+:root a:hover{
+  background-color:black;
+}
+*{
+  margin:0;
+  padding:0;
+  text-decoration:none;
+}
+img{
+  width:50%;
+  height:50vh;
+}
+nav{
+  width:100%;
+  background-color:#be3144;
+  height:10vh;
+  position:fixed;
+}
+nav ul{
+  display:flex;
+  justify-content:right;
+}
+nav ul li{
+  padding-right:2rem;
+  list-style:none;
+  font-family:sans-serif;
+  margin-top:13px;
+  font-size:20px;
+}
+ul a{
+  color:white;
+  height:10vh;
+}
+#welcome-section{
+  width:100%;
+  height:100vh;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  background:linear-gradient(
+    gray,
+    black
+  );  
+}
+.name-container{
+  margin-top:20%;
+}
+.name{
+  color:white;
+  font-size:50px;
+  font-family:arial;
+}
+.name-detail{
+  color:var(--main-red);
+  font-size:30px;
+}
+#projects{
+  padding-top:2rem;
+  padding-bottom:2rem;
+  width:100%;
+  background:linear-gradient(
+    var(--main-blue),
+    gray
+  );
+  height:100%;
+}
+.project-container{
+  padding-top:20px;
+}
+h2{
+  text-align:center;
+  color:white;
+  font-family:arial;
+  font-size:2rem;
+}
+.project-1{
+  margin-left:30%;
+}
+.project-title{
+  text-align:center;
+}
+.project-container-2{
+  margin-top:5%
+}
+.project-title.p{
+  font-size:20px;
+  margin-right:3%;
+  padding-bottom:3%;
+  color:var(--main-red);
+}
+hr{
+  border:1px solid black;
+}
+.project-title.h1 {
+  margin-top:3%;
+  color:white;
+  font-family:arial;
+}
+.details{
+  width:100%;
+  text-align:center;
+  height:50vh;
+  background:linear-gradient(
+    var(--main-red),
+    gray
+  );
+}
+.contact-details{
+  color:white;
+  font-size:20px;
+  height:30%; 
+  padding-top:7%; 
+}
+.contact-details a{
+  color:white;
+  text-decoration:underline;
+}
+.footer-heading{
+  border:1px solid black;
+}
+.footer-heading,a{
+  color:white;
+}
+.footer-heading,a:hover{
+  background-color:black;
+}
+@media (max-width:414){
+  h1{
+    font-size:2rem;
+  }
+  p{
+    font-size:1rem;
+  }
+}
