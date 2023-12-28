@@ -13,8 +13,10 @@
   text-decoration:none;
 }
 img{
-  width:50%;
-  height:50vh;
+  max-width:100%;
+  height:auto;
+  margin:0 auto;
+  display:block;
 }
 nav{
   width:100%;
@@ -78,9 +80,6 @@ h2{
   color:white;
   font-family:arial;
   font-size:2rem;
-}
-.project-1{
-  margin-left:30%;
 }
 .project-title{
   text-align:center;
