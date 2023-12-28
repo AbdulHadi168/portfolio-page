@@ -104,7 +104,7 @@ hr{
 .details{
   width:100%;
   text-align:center;
-  height:25vh;
+  height:25%;
   background:linear-gradient(
     var(--main-red),
     gray
@@ -115,7 +115,7 @@ hr{
   font-size:20px;
   height:30%; 
   padding-top:7%; 
-  padding-bottom:2%;
+  padding-bottom:4%;
 }
 .contact-details a{
   color:white;
